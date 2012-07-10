@@ -1,0 +1,4 @@
+#Types	TotalVariants	FilteredOut
+Overalll	9	0
+SNPs	9	0
+Others	0	0

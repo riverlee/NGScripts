@@ -1,0 +1,3 @@
+>#Types	OverallSNPs	OverallTiTv	NovelSNPs	NovelTiTv	Non-synonymousSNPs	Non-synonymousTiTv	Novel_non-synonymousSNPs	Novel_non-synonymousTiTv
+AllChr	9	1.25	7	1.33333333333333	7	1.33333333333333	5	1.5
+1	9	1.25	7	1.33333333333333	7	1.33333333333333	5	1.5
