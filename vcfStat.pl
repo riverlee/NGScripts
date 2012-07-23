@@ -183,7 +183,7 @@ sub loadNonSynonymous {
 		while (<IN>) {
 			s/\r|\n//g;
 			next if (/^#|^$/);
-			my ( $chr, $pos, $rsid, $refallel, $altallele ) = split /\s+/;
+			my ( $chr, $pos, $rsid, $refallel, $altallele ) = split "\t";
 			if ( $pos !~ /^\d/ ) {
 				print
 "[Error] Input non-synonymous file is not in 'list' format \n";
