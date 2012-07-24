@@ -17,7 +17,6 @@ my (
 );
 
 my $output = ".";
-
 my $commandline = join " ", ( "perl vcfStat.pl", @ARGV );
 
 #print $commandline,"\n\n"; exit(1);
@@ -319,7 +318,9 @@ sub parseVCF {
 				}
 			}
 			next unless ($flag);    #flag=0, not pass the filter
-		}
+		}else{
+            next if ($filter ne "PASS"); #default only consider those with filter having PASS
+        }
 
 		my @formats = split ":", $format;
 		my %temp;
